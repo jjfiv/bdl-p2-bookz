@@ -23,5 +23,9 @@ Search results, books that start with 'A', and basically anything else we want t
 
 ### Build a system for flagging bad entries
 
-We want a way for users to tell us when our metadata is wrong. This is a very open-ended requirement, it could be as simple as a submission that goes (eventually) to be appended to a file. It would be cool if you could go to "/review" and see what's been submitted as errors, though.
+We want a way for users to tell us when our metadata is wrong. This is a very open-ended requirement, it could be as simple as a submission that goes (eventually) to be appended to a file.
+
+- This means you must save your "bad entries" to a file, and load them up again. Why load them again? Because you haven't really saved anything unless you are sure you can read it. Hint: just print one book id per line to a text field.
+
+It would be cool if you could go to "/review" and see what's been submitted as errors, though.
 
